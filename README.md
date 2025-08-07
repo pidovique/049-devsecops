@@ -1,6 +1,6 @@
 # DevSecOps Demo
 
-Repositorio de práctica para un ciclo **DevSecOps** académico con GitHub Actions.
+Repositorio de práctica para un ciclo **DevSecOps**  con GitHub Actions.
 
 ## Fases cubiertas
 - **Plan**: `docs/threat_model.md`, `SECURITY.md`
@@ -14,10 +14,10 @@ Repositorio de práctica para un ciclo **DevSecOps** académico con GitHub Actio
 ## Requisitos
 - GitHub (repo público o privado)
 - GitHub Actions habilitado
-- Docker (para ejecutar ZAP localmente si corres el pipeline en self-hosted)
+- Docker (para ejecutar ZAP localmente si corres el pipeline en tu pc)
 
 ## Uso rápido
-1. Sube este repo a GitHub.
+1. Repo a GitHub.
 2. Habilita **CodeQL** (Security → Code security → Enable CodeQL).
 3. Activa **Dependabot** (archivo `.github/dependabot.yml`).
 4. Revisa los workflows en `.github/workflows`.
